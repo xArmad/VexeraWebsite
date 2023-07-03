@@ -10,6 +10,9 @@ const config = {
   images: {
     domains: ["uploadthing.com"],
   },
+  experimental: {
+    serverActions: true,
+  },
   /** Linting and typechecking are already done as separate tasks in the CI pipeline */
   // eslint: {
   //   ignoreDuringBuilds: true,
